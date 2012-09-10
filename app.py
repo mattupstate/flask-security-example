@@ -11,12 +11,7 @@ app = Flask(__name__)
 app.config['DEBUG'] = True
 app.config['SECRET_KEY'] = 'super-secret'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/db.sqlite'
-app.config['MAIL_SERVER'] = 'smtp.gmail.com'
-app.config['MAIL_PORT'] = 465
-app.config['MAIL_USE_TLS'] = False
-app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_USERNAME'] = 'mdw1980'
-app.config['MAIL_PASSWORD'] = 'matt4gmail'
+app.config.from_object('config.email')
 app.config['DEFAULT_MAIL_SENDER'] = 'info@site.com'
 app.config['SECURITY_REGISTERABLE'] = True
 app.config['SECURITY_CONFIRMABLE'] = True
