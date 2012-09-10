@@ -1,4 +1,4 @@
-https://github.com/mattupstate/flask-security/tarball/develop
-https://github.com/mrjoes/flask-babel/tarball/develop
+https://github.com/mattupstate/flask-security/tarball/messages
+https://github.com/mrjoes/flask-babel/tarball/master
 Flask-SQLAlchemy==0.16
 Flask-Mail==0.7.1

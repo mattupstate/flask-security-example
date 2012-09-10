@@ -31,7 +31,6 @@ def get_locale():
         session['lang'] = override
 
     rv = session.get('lang', 'en')
-    print rv
     return rv
 
 # Create database connection object
