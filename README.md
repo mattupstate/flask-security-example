@@ -4,7 +4,7 @@
 
     $ git clone git@github.com:mattupstate/flask-security-example.git
 
-2. Change director:
+2. Change directory:
 
     $ cd flask-security-example
 
