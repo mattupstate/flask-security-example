@@ -6,7 +6,7 @@
 
 2. Change director:
 
-    $ cd flask-security-exmaple
+    $ cd flask-security-example
 
 3. Install dependencies:
 
