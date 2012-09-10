@@ -11,11 +11,11 @@ app = Flask(__name__)
 app.config['DEBUG'] = True
 app.config['SECRET_KEY'] = 'super-secret'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/db.sqlite'
-app.config.from_object('config.email')
 app.config['DEFAULT_MAIL_SENDER'] = 'info@site.com'
 app.config['SECURITY_REGISTERABLE'] = True
 app.config['SECURITY_CONFIRMABLE'] = True
 app.config['SECURITY_RECOVERABLE'] = True
+app.config.from_object('config.email')
 
 # Setup mail extension
 mail = Mail(app)
