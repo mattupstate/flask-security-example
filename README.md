@@ -2,7 +2,7 @@
 
 1. Clone repo:
 
-    $ git clone git@github.com:mattupstate/flask-security-example.git
+    $ git clone git://github.com/mattupstate/flask-security-example.git
 
 2. Change directory:
 
